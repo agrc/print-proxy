@@ -2,6 +2,7 @@
 
 ### Install
 - `pip install -r Requirements.txt` (make sure that this installs into the AGS version of python (x64))
+- Update `secrets.py` to match the path on the server that you are deploying to.
 - Publish `Toolbox.tbx/PrintProxy` as synchronous gp task.
     - Pass `{}` as `Web_Map_as_JSON` parameter.
 
