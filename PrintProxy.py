@@ -52,8 +52,8 @@ def url_to_file(url):
 
 if __name__ == '__main__':
     # get parameters
-    url = GetParameterAsText(0)
-    webmap = switch_quad_words(GetParameterAsText(1))
+    url = GetParameterAsText(0).replace('https', 'http')
+    webmap = switch_quad_words(GetParameterAsText(1)).replace('https', 'http')
     print_format = GetParameterAsText(2)
     layout_template = GetParameterAsText(3)
 
