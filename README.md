@@ -1,5 +1,7 @@
 # print-proxy
 
+## This project has been replaced by https://github.com/agrc/serverless-print-proxy
+
 ### Install
 - `pip install -r Requirements.txt` (make sure that this installs into the AGS version of python (x64))
 - Update `secrets.py` with your server path and quad word.
